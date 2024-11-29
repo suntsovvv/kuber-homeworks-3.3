@@ -136,7 +136,7 @@ access-cache           app=cache      12s
 default-deny-ingress   <none>         170m
 ```
 
-Демонстрирую, что трафик разрешён и запрещён.
+Демонстрирую, что трафик разрешён и запрещён.   
 _frontend_
 ```bash
 user@microk8s:~/kuber-homeworks-3.3$ kubectl exec deployments/frontend -it -- bash
